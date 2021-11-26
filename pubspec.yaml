@@ -1,0 +1,19 @@
+name: console_full
+description: A simple command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+publish_to: "none"
+
+environment:
+  sdk: '>=2.12.4 <3.0.0'
+
+
+dependencies:
+  #path: ^1.8.0,
+  json_to_dart:
+    path: packages/json_to_dart
+
+
+dev_dependencies:
+  lints: ^1.0.0
